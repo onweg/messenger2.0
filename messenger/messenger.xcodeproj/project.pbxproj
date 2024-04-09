@@ -9,16 +9,20 @@
 /* Begin PBXBuildFile section */
 		748F21A32BC5736300B2212B /* messengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F21A22BC5736300B2212B /* messengerApp.swift */; };
 		748F21A52BC5736300B2212B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F21A42BC5736300B2212B /* ContentView.swift */; };
-		748F21A72BC5736500B2212B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748F21A62BC5736500B2212B /* Assets.xcassets */; };
 		748F21AA2BC5736500B2212B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748F21A92BC5736500B2212B /* Preview Assets.xcassets */; };
+		748F336A2BC57489003DABA1 /* Core in Resources */ = {isa = PBXBuildFile; fileRef = 748F33692BC57489003DABA1 /* Core */; };
+		748F336E2BC57501003DABA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748F336D2BC57501003DABA1 /* Assets.xcassets */; };
+		748F33702BC57531003DABA1 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 748F336F2BC57531003DABA1 /* Model */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		748F219F2BC5736300B2212B /* messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748F21A22BC5736300B2212B /* messengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messengerApp.swift; sourceTree = "<group>"; };
 		748F21A42BC5736300B2212B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		748F21A62BC5736500B2212B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748F21A92BC5736500B2212B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		748F33692BC57489003DABA1 /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Core; sourceTree = "<group>"; };
+		748F336D2BC57501003DABA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Swift-fundametals(message)/Message/Message/Assets.xcassets"; sourceTree = "<group>"; };
+		748F336F2BC57531003DABA1 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Model; path = "../../../Swift-fundametals(message)/Message/Message/Model"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,11 @@
 		748F21A12BC5736300B2212B /* messenger */ = {
 			isa = PBXGroup;
 			children = (
-				748F33682BC573CC003DABA1 /* Core */,
 				748F33672BC573C1003DABA1 /* App */,
+				748F33692BC57489003DABA1 /* Core */,
+				748F336F2BC57531003DABA1 /* Model */,
+				748F336D2BC57501003DABA1 /* Assets.xcassets */,
 				748F21A42BC5736300B2212B /* ContentView.swift */,
-				748F21A62BC5736500B2212B /* Assets.xcassets */,
 				748F21A82BC5736500B2212B /* Preview Content */,
 			);
 			path = messenger;
@@ -74,13 +79,6 @@
 				748F21A22BC5736300B2212B /* messengerApp.swift */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		748F33682BC573CC003DABA1 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				748F21AA2BC5736500B2212B /* Preview Assets.xcassets in Resources */,
-				748F21A72BC5736500B2212B /* Assets.xcassets in Resources */,
+				748F336E2BC57501003DABA1 /* Assets.xcassets in Resources */,
+				748F33702BC57531003DABA1 /* Model in Resources */,
+				748F336A2BC57489003DABA1 /* Core in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
